@@ -54,7 +54,7 @@ localStorage 的 `dsh-think-bounce-pet.settings`；v0.1 的旧开关键会自动
 
 当前仓库状态（已验证）：
 
-- 源码已发布到 GitHub 私有仓库：https://github.com/9livewolf/dsh-think-bounce-pet；
+- 源码已发布到 GitHub 公开仓库：https://github.com/9livewolf/dsh-think-bounce-pet；
 - 已通过本地链接安装到 web profile：`dsh plugin --profile web add ./dsh-think-bounce-pet`；
 - 插件市场「本机插件」中会显示 `dsh-think-bounce-pet`（来源类型：本地链接），可停用/启用/查看状态；
 - `GET /plugins/dsh-think-bounce-pet/client.js` 返回 200。
@@ -63,4 +63,4 @@ localStorage 的 `dsh-think-bounce-pet.settings`；v0.1 的旧开关键会自动
 1. 把该仓库改为 Public；
 2. 向 awesome-dsh-plugin.com 目录提交收录（例如 PR 到对应 awesome 列表/registry）。
 
-当前仓库仍是 Private，尚未提交到商城目录。
+当前仓库已是 Public，尚未提交到商城目录。
