@@ -15,6 +15,14 @@
     "cordis.patch.yml"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9livewolf/dsh-think-bounce-pet.git"
+  },
+  "homepage": "https://github.com/9livewolf/dsh-think-bounce-pet",
+  "bugs": {
+    "url": "https://github.com/9livewolf/dsh-think-bounce-pet/issues"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

@@ -44,7 +44,7 @@ localStorage 的 `dsh-think-bounce-pet.settings`；v0.1 的旧开关键会自动
 客户端半边改动只需浏览器 F5；本插件无宿主侧逻辑，装好后重启一次 `dsh web`
 即可长期生效。
 
-## 插件市场适配（本地验证，未发布）
+## 插件市场适配（已发布 GitHub，尚未提交商城）
 
 本插件已按 DSH 插件规范整理成可被插件市场识别/管理的双面包：
 
@@ -52,12 +52,15 @@ localStorage 的 `dsh-think-bounce-pet.settings`；v0.1 的旧开关键会自动
 - `cordis.patch.yml` 提供 bundle 挂载行；
 - `lib/index.js` 为宿主空壳，`lib/client.js` 为浏览器半边。
 
-当前本地状态（已验证）：
+当前仓库状态（已验证）：
 
+- 源码已发布到 GitHub 私有仓库：https://github.com/9livewolf/dsh-think-bounce-pet；
 - 已通过本地链接安装到 web profile：`dsh plugin --profile web add ./dsh-think-bounce-pet`；
 - 插件市场「本机插件」中会显示 `dsh-think-bounce-pet`（来源类型：本地链接），可停用/启用/查看状态；
 - `GET /plugins/dsh-think-bounce-pet/client.js` 返回 200。
 
-要让这个插件出现在公共插件市场的列表里并一键下载安装，还需要把源码发布到 GitHub / npm，
-并向 awesome-dsh-plugin.com 目录提交收录（例如 PR 到对应 awesome 列表/registry）。按你的要求，
-本轮**没有上传、发布或提交收录**。
+要让它出现在公共插件市场的列表里并一键下载安装，需要：
+1. 把该仓库改为 Public；
+2. 向 awesome-dsh-plugin.com 目录提交收录（例如 PR 到对应 awesome 列表/registry）。
+
+当前仓库仍是 Private，尚未提交到商城目录。
