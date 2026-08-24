@@ -1,5 +1,7 @@
 # dsh-think-bounce-pet
 
+[📺 点击观看效果演示](https://www.bilibili.com/video/BV14d886GEx1)
+
 DeepSeek Harness Web UI 的「思考弹球宠物」插件。
 
 ## 行为
